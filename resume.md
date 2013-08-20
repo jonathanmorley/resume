@@ -1,3 +1,8 @@
+---
+layouts: default
+title: "Resume"
+---
+
 # Jonathan Morley
 
 ## Contact Information
