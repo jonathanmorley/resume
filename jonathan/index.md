@@ -1,5 +1,5 @@
 ---
-layouts: resume
+layout: resume
 title: "Resume"
 ---
 
