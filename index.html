@@ -42,7 +42,7 @@ title: "Home"
           <h3>
 <a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
 
-{% for page in jonathan.pages %}
+{% for page in site.categories.jonathan %}
 	<section>
 		<h3>{{ page.title }}</h3>
 		{{ page.content }}
@@ -58,14 +58,13 @@ title: "Home"
 
 
       </div>
-      <div class="creds">
-        <small>This page generated using <a href="https://pages.github.com/">GitHub Pages</a><br/>theme by <a href="https://twitter.com/jonrohan/">Jon Rohan</a></small>
-      </div>
     </footer>
   </div>
   <div class="current-section">
     <a href="#top">Scroll to top</a>
-    <a href="https://github.com/jonathanmorley/resume/tarball/master" class="tar">tar</a><a href="https://github.com/jonathanmorley/resume/zipball/master" class="zip">zip</a><a href="" class="code">source code</a>
+    <a href="http://jonathanmorley.github.io/resume/pdf" class="pdf">pdf</a>
+	<a href="http://jonathanmorley.github.io/resume/docx" class="docx">docx</a>
+	<a href="http://jonathanmorley.github.io/resume/markdown" class="markdown">markdown</a>
     <p class="name"></p>
   </div>
 
