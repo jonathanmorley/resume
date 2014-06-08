@@ -6,14 +6,14 @@
  * This CSS document is delivered to you under the CC BY-SA 3.0 License.
  * https://creativecommons.org/licenses/by-sa/3.0/deed.en_US
  */
-
+ 
 /* Whole document */
 body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    width: 800px;
+    width: 70%;
     margin: auto;
     background: #FFFFFF;
-    padding: 10px 10px 10px 10px;
+    padding: 10px;
 }
 
 /* Title of the resume */
