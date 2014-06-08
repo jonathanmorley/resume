@@ -1,8 +1,6 @@
-Education
-=========
+## Education
 
-Bachelor of Science in Computer Science
----------------------------------------
+### Bachelor of Science in Computer Science
 
 From Oct 2009 to Jul 2012
 
