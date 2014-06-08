@@ -1,4 +1,4 @@
-Resume
+resume
 ======
 [![Build Status](https://arturo.io/badge/10081021)](https://arturo.io/repositories/10081021)
 
