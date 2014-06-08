@@ -1,0 +1,9 @@
+title: "Jonathan Morley"
+formats: 
+  - html
+pages:
+  - jonathan.md
+  - README.md
+  - 03-Non-Manifest.md
+  - 04-Markdown.md
+css: 'assets/styles.css'
