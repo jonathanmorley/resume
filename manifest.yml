@@ -1,8 +1,12 @@
 title: "Jonathan Morley"
+author: "Jonathan Morley"
 formats: 
   - html
   - pdf
 pages:
-  - jonathan.md
-  - README.md
-css: 'assets/styles.css'
+  - personal.md
+  - education.md
+  - experience.md
+  - skills.md
+  - references.md
+css: "assets/styles.css"
