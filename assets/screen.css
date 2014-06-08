@@ -6,6 +6,10 @@
  * This CSS document is delivered to you under the CC BY-SA 3.0 License.
  * https://creativecommons.org/licenses/by-sa/3.0/deed.en_US
  */
+
+html {
+	max-width: none;
+}
  
 /* Whole document */
 body {
