@@ -9,4 +9,4 @@ pages:
   - experience.md
   - skills.md
   - references.md
-css: "assets/styles.css"
+css: "assets/screen.css"
