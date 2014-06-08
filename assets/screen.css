@@ -1,121 +1,86 @@
-﻿@import "http://fonts.googleapis.com/css?family=Carrois+Gothic|Cinzel|Playfair+Display+SC";
+﻿/*
+ * Copyright 2013 Christophe-Marie Duquesne <chmd@chmd.fr>
+ *
+ * CSS for making a resume with pandoc. Inspired by moderncv.
+ *
+ * This CSS document is delivered to you under the CC BY-SA 3.0 License.
+ * https://creativecommons.org/licenses/by-sa/3.0/deed.en_US
+ */
 
-/* Set it up! */
-
-body
-{
-	margin: 50px 20px;
-	background-color: #222;
-	font-size: small;
+/* Whole document */
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    width: 800px;
+    margin: auto;
+    background: #FFFFFF;
+    padding: 10px 10px 10px 10px;
 }
 
-#content
-{
-	-moz-columns:50px 2; /* Firefox */
-	-webkit-columns:50px 2; /* Safari and Chrome */
-	columns:50px 2;
-
-	-moz-column-gap:200px; /* Firefox */
-	-webkit-column-gap:200px; /* Safari and Chrome */
-	column-gap:200px;
-	
-	width: 900px;
-	margin: 0px auto 0px auto;
-	clear: both;
+/* Title of the resume */
+h1 {
+    font-size: 55px;
+    color: #757575;
+    text-align:center;
+    margin-bottom:15px;
+}
+h1:hover {
+    background-color: #757575;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 1px #333;
 }
 
-h1
-{
-	text-align: center;
-	color: #fff;
-	font-size: 3.5em;
-	font-family: "Cinzel", serif;
+/* Titles of categories */
+h2 {
+    color: #397249;
+}
+/* There is a bar just before each category */
+h2:before {
+    content: "";
+    display: inline-block;
+    margin-right:1%;
+    width: 16%;
+    height: 10px;
+    background-color: #9CB770;
+}
+h2:hover {
+    background-color: #397249;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 1px #333;
 }
 
-h1 a:hover
-{
-	text-decoration: none;
+/* Definitions */
+dt {
+    float: left;
+    clear: left;
+    width: 17%;
+    /*font-weight: bold;*/
+}
+dd {
+    margin-left: 17%;
+}
+p {
+    margin-top:0;
+    margin-bottom:7px;
 }
 
-h2
-{
-	color: #1fb3ff;
-	font-size: 2.6em;
-	font-family: "Playfair Display SC", serif;
-	margin: 0px auto;
-	padding: 0px;
+/* Blockquotes */
+blockquote {
+    text-align: center
 }
 
-h3,.date
-{
-	color: #fff;
-	font-size: 1.6em;
-	font-weight: normal;
+/* Links */
+a {
+    text-decoration: none;
+    color: #397249;
+}
+a:hover, a:active {
+    background-color: #397249;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px #333;
 }
 
-a
-{
-	color: inherit;
-	text-decoration: none;
-	-moz-transition: all 0.5s ease; /* Firefox 4 */
-	-webkit-transition: all 0.5s ease; /* Safari and Chrome */
-	-o-transition: all 0.5s ease; /* Opera */
-}
-
-a:hover
-{
-	color: #1fb3ff;
-	text-decoration: none;
-	-moz-transition: all 1s; /* Firefox 4 */
-	-webkit-transition: all 1s; /* Safari and Chrome */
-	-o-transition: all 1s; /* Opera */
-}
-
-.entry p
-{
-	color: #999;
-	margin: 0px;
-}
-
-.entry
-{
-	color: #bbb;
-	margin: 25px 0px 25px 15px;
-	clear: both;
-	font-family: "Carrois Gothic", sans-serif;
-}	
-
-.entry summary
-{
-	font-size: 1.17em;
-}
-
-
-.entry summary .organisation
-{
-	font-style: italic;
-}
-
-footer
-{
-	text-align: center;
-	margin: 40px;
-	font-size: 1em;
-	color: #999;
-	font-family: "Playfair Display SC", serif;
-}
-
-footer a
-{
-	padding: 0.5em;
-}
-
-footer .email:before
-{
-	content: "✉ ";
-}
-
-footer .phone:before
-{
-	content: "☎ ";
+/* Horizontal separators */
+hr {
+    color: #A6A6A6;
 }
