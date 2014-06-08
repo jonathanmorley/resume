@@ -1,29 +1,22 @@
-## Education
+Education
+---------
 
-### University of Warwick
+2009-2012
+:	*Bachelor of Science (with Honors) in Computer Science at
+	[The University of Warwick](http://www2.warwick.ac.uk/)*
+	(Coventry, UK)
 
-#### Bachelor of Science in Computer Science
+2008-2009
+:	*Mathematics with Computing at
+	[The University of Warwick](http://www2.warwick.ac.uk/)*
+	(Coventry, UK)
 
-From Oct 2009 to Jul 2012
-
-Tutor: Nathan Griffiths
-
-#### Maths with Computing
-
-From Oct 2008 to Jul 2009
-
-Tutor: Prof. David Mond
-
-### Nottingham High School
-
-#### A-Levels
-
-From Sep 2006 to Jul 2008
-
-Tutor: P.G. Morris
-
-#### GCSEs
-
-From Sep 2001 to Jul 2006
-
-Tutor: P.G. Morris
+2006-2008
+:	*A levels at
+	[Nottingham High School](http://www.nottinghamhigh.co.uk/)*
+	(Nottingham, UK)
+	
+2001-2006
+:	*GCSEs at
+	[Nottingham High School](http://www.nottinghamhigh.co.uk/)*
+	(Nottingham, UK)

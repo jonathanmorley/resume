@@ -1,5 +1,3 @@
-# Jonathan Morley
+Jonathan Morley
+===============
 
-## Bio
-
-Location: Springfield, VA
