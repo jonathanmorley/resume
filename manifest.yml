@@ -1,6 +1,7 @@
 title: "Jonathan Morley"
 formats: 
-  - html,pdf
+  - html
+  - pdf
 pages:
   - jonathan.md
   - README.md
