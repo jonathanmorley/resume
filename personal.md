@@ -4,4 +4,4 @@ Jonathan Morley
 Location
 --------
 
-Springfield
+Springfield, VA
