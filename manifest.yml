@@ -3,10 +3,12 @@ author: "Jonathan Morley"
 formats: 
   - html
   - pdf
+table_of_contents: false
+include_after_body: "footer.md"
 pages:
-  - personal.md
-  - education.md
-  - experience.md
-  - skills.md
-  - references.md
+  - "personal.md"
+  - "education.md"
+  - "experience.md"
+  - "skills.md"
+  - "references.md"
 css: "assets/screen.css"
