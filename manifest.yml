@@ -3,7 +3,7 @@ author: "Jonathan Morley"
 formats: 
   - html
   - pdf
-table_of_contents: false
+toc_depth: 0
 include_after_body: "footer.md"
 pages:
   - "personal.md"
